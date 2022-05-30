@@ -17,13 +17,13 @@ export default function LocationPage(){
       </div>
       <div className='flex-categories'>
     <div className='product-card'>
-          <img src="/cardMariage.jpg"
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/fe8211144909325.62950e38c55ff.jpg"
           className="categories-image" 
           onClick={
             event =>  window.location.href="/locationMariage"}/>
         </div>
       <div className='product-card'>
-          <img src="/cardSoiree.jpg"
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/fa4342144909325.62950e38c4d7c.jpg"
           className="categories-image" 
           onClick={
             event =>  window.location.href="/locationSoiree"}/>
