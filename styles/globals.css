@@ -100,8 +100,8 @@ gap: 2vw;
 }
 .Nav-items button{
 text-align: center;
-width: 140px;
-height: 45px;
+width: 8rem;
+height: 3rem;
 font-family: 'Roboto', sans-serif;
 font-size: 11px;
 text-transform: uppercase;
