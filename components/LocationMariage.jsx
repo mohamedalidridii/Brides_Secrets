@@ -19,5 +19,4 @@ const LocationMariage = ({ locationMariage: { image, name, slug, price} }) => {
     </div>
   )
 }
-
 export default LocationMariage

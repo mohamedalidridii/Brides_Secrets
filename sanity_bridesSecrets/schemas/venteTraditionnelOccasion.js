@@ -1,6 +1,6 @@
 export default {
-    name: 'vente',
-    title: 'Vente',
+    name: 'venteTraditionnelOccasion',
+    title: 'Vente: Traditionnel - Occasion',
     type: 'document',
     fields:[
         {
@@ -31,5 +31,10 @@ export default {
             title:'Price',
             type: 'number',
         },
+        { 
+            name: 'details',
+            title: 'Details',
+            type: 'string',
+          }
     ]
 }

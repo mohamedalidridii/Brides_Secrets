@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import { urlFor } from '../lib/client'
 
-const Vente = ({ vente: { image, name, slug, price} }) => {
+const VenteTraditionnelOccasion = ({ venteTraditionnelOccasion: { image, name, slug, price} }) => {
   return (
     <div>
-      <Link href={`/vente/${slug.current}`}>
+      <Link href={`/venteTraditionnelOccasion/${slug.current}`}>
         <div className='product-card'>
           <img src={urlFor(image && image[0])} 
           width={300}
@@ -20,4 +20,4 @@ const Vente = ({ vente: { image, name, slug, price} }) => {
   )
 }
 
-export default Vente
+export default VenteTraditionnelOccasion

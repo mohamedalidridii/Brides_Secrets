@@ -28,6 +28,7 @@ const NavBar = () => {
           event =>  window.location.href="/vente"}>Vente</button>
       <button className='button-home' onClick={
           event =>  window.location.href="/location"}>Location</button>
+      
       </div>
       <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
         <div className="bar"></div>

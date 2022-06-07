@@ -1,6 +1,6 @@
 export default {
-    name: 'locationSoiree',
-    title: 'Location: Robe de soiree',
+    name: 'venteTraditionnelNeuf',
+    title: 'Vente: Traditionnel - Neuf',
     type: 'document',
     fields:[
         {
