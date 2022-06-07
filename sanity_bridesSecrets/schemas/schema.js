@@ -8,13 +8,20 @@ import venteTraditionnelOccasion from './venteTraditionnelOccasion'
 import venteTraditionnelNeuf from './venteTraditionnelNeuf'
 import venteSoireeOcasion from './venteSoireeOcasion'
 import venteSoireeNeuf from './venteSoireeNeuf'
-import locationSoiree from './locationSoiree'
-import locationMariage from './locationMariage'
+import locationInviteeVoileeTraditionnel from './locationInviteeVoileeTraditionnel'
+import locationInviteeVoileeSoiree from './locationInviteeVoileeSoiree'
+import locationInviteeNonVoileeSoiree from './locationInviteeNonVoileeSoiree'
+import locationInviteeNonVoileeTraditionnel from './locationInviteeNonVoileeTraditionnel'
+import locationMarieetraditionnel from './locationMarieetraditionnel'
+import locationMarieeSoiree from './locationMarieeSoiree'
 
 export default createSchema({
   name: 'default',
   types: schemaTypes.concat([
-    venteTraditionnelOccasion, venteTraditionnelNeuf, venteSoireeOcasion, venteSoireeNeuf, locationSoiree, locationMariage
+    venteTraditionnelOccasion, venteTraditionnelNeuf, 
+    venteSoireeOcasion, venteSoireeNeuf, 
+    locationInviteeVoileeSoiree, locationInviteeVoileeTraditionnel, locationInviteeNonVoileeSoiree, locationInviteeNonVoileeTraditionnel,
+     locationMarieetraditionnel, locationMarieeSoiree
     
   ]),
 })

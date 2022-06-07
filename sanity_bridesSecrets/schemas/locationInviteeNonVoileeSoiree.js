@@ -1,6 +1,6 @@
 export default {
-    name: 'locationMariage',
-    title: 'Location: Robe de mariage',
+    name: 'locationInviteeNonVoileeSoiree',
+    title: 'Location: Invitée - Non voilée - Soirée',
     type: 'document',
     fields:[
         {
