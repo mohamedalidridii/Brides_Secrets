@@ -8,3 +8,5 @@ export {default as NavBarHome} from './NavBarHome';
 export {default as Location} from './Location';
 export {default as LocationMariage} from './LocationMariage';
 export {default as LocationSoiree} from './LocationSoiree';
+export {default as VenteTraditionnelNeuf} from './VenteTraditionnelNeuf';
+export {default as VenteTraditionnelOccasion} from './VenteTraditionnelOccasion';
