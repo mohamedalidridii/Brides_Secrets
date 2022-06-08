@@ -860,7 +860,7 @@ margin-top: 160px;
    background-color: #ebebeb;
     transform: scale(1, 1);
     transition: transform 0.5s ease;
-    width: 15rem;
+    width: 20rem;
     height: 25rem;
   }
   .categories-image{
@@ -915,8 +915,11 @@ margin-top: 160px;
     justify-content: flex-end;
     align-content: center ;
     gap: 4vh;
+    /* background: url('/Background.jpg'); */
     background: #fff;
     left: 0;
+    background-size: cover;
+
     width: 80vw;
     height: 100vh;
     transform: translateX(-100%);
