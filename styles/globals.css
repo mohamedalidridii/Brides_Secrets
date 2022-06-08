@@ -412,6 +412,8 @@ text-align: end;
 }
 
 .footer-container{
+  display:block;
+  /* position:fixed; */
   color: #5b5f63;
   text-align: center;
   margin-top: 20px;
@@ -776,6 +778,18 @@ margin-top: 160px;
   gap: 0.1rem;
   padding-bottom: 2rem;
 }
+.open-time{
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: #6d7278;
+  padding-bottom: 2rem;
+}
+.footer-container .type-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 @media screen and (max-width:800px) {
   .bg-image{
     position: fixed;

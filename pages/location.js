@@ -9,14 +9,11 @@ export default function LocationPage(){
     <div>
       <div className='bg-image'></div>
     <Layout>
-
     <div className='products-heading'>
       <h2>Nos articles de location</h2>
       <p>Categories</p>
       </div>
-    
     <div className='Home-container'>
-    
       <div className='sub-category'>
       <div className='type-heading'>
         <h3>Invitation</h3>
