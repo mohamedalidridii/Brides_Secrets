@@ -11,6 +11,7 @@ export default function Home(){
     <NavBarHome />
     <div className='Home-container'>
       <Image className='image-navbar' width={440} height={348} src="/LOGO.png"/>
+
       <button className='button-home' onClick={
           event =>  window.location.href="/vente"}>Vente</button>
       <button className='button-home' onClick={

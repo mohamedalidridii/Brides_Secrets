@@ -8,6 +8,7 @@ const NavBarHome = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div>
+      <div className='flex'>
     {/* <div className='navbar-container'>
       <Image className='logo' src="/LOGO.png" width={228} height={177} onClick={
           event =>  window.location.href="/"}/>
@@ -27,10 +28,12 @@ const NavBarHome = () => {
           event =>  window.location.href="/vente"}>Vente</button>
       <button className='button-home' onClick={
           event =>  window.location.href="/location"}>Location</button>
+      
       </div>
       <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
         <div className="bar"></div>
       </div>
+    </div>
     </div>
     </div>
     

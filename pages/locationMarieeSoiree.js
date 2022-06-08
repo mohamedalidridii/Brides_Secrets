@@ -5,6 +5,8 @@ import { client } from '../lib/client';
 
 const LocationMarieeSoireePage = ({locationsMarieeSoiree, bannerData}) => {
   return (
+    <div>
+      <div className='bg-image'></div>
     <Layout>
       <div className='products-heading'>
         <h2>Nos meilleurs produits</h2>
@@ -15,6 +17,7 @@ const LocationMarieeSoireePage = ({locationsMarieeSoiree, bannerData}) => {
           (locationMarieeSoiree) => <LocationMarieeSoiree key={locationMarieeSoiree._id} locationMarieeSoiree={locationMarieeSoiree} />)}
       </div>
     </Layout>
+    </div>
   )
 }
 

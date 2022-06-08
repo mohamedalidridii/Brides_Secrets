@@ -12,29 +12,33 @@ export default function LocationPage(){
 
     <div className='products-heading'>
       <h2>Nos articles de location</h2>
-      <p>Categories</p>
+      <p>Invitation</p>
       </div>
     
     <div className='Home-container'>
     
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Invitation</h3>
-        <p>Nos robes pour invitée</p>
+        <h3>Voilée</h3>
+        <p>Nos articles voilée</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
-          event =>  window.location.href="/invitation"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
+          event =>  window.location.href="/locationInviteeVoileeTraditionnel"}><AiOutlineArrowRight size={12}/>Traditionnel</button>
+      <button className='button-home' onClick={
+          event =>  window.location.href="/locationInviteeVoileeSoiree"}><AiOutlineArrowRight size={12}/>Soirée</button>
       </div>
       </div>
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Mariage</h3>
-        <p>Nos robes pour mariée</p>
+        <h3>Non Voilée</h3>
+        <p>Nos articles non voilée</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
-          event =>  window.location.href="/mariage"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
+          event =>  window.location.href="/locationInviteeNonVoileeTraditionnel"}><AiOutlineArrowRight size={12}/>Traditionnel</button>
+      <button className='button-home' onClick={
+          event =>  window.location.href="/locationInviteeNonVoileeSoiree"}><AiOutlineArrowRight size={12}/>Soirée</button>
       </div>
       </div>
     </div>

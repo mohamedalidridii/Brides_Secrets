@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 import { CgFacebook} from 'react-icons/cg'
 
+
 const NavBar = () => {
 
   const [isOpen, setIsOpen] = useState(false)

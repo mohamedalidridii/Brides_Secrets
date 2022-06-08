@@ -12,29 +12,29 @@ export default function LocationPage(){
 
     <div className='products-heading'>
       <h2>Nos articles de location</h2>
-      <p>Categories</p>
+      <p>Mariage</p>
       </div>
     
     <div className='Home-container'>
     
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Invitation</h3>
-        <p>Nos robes pour invitée</p>
+        <h3>Traditionnel</h3>
+        <p>Nos robes de traditionnel</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
-          event =>  window.location.href="/invitation"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
+          event =>  window.location.href="/locationsMarieetraditionnel"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
       </div>
       </div>
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Mariage</h3>
-        <p>Nos robes pour mariée</p>
+        <h3>Soirée</h3>
+        <p>Nos robes de Soirée</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
-          event =>  window.location.href="/mariage"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
+          event =>  window.location.href="/locationMarieeSoiree"}><AiOutlineArrowRight size={12}/>Cliquez ici</button>
       </div>
       </div>
     </div>
