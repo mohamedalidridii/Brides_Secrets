@@ -12,7 +12,7 @@ export default function LocationPage(){
 
     <div className='products-heading'>
       <h2>Nos articles de location</h2>
-      <p>Mariage</p>
+      <p>Location-Mariage</p>
       </div>
     
     <div className='Home-container'>

@@ -9,8 +9,8 @@ const LocationMarieeSoireePage = ({locationsMarieeSoiree, bannerData}) => {
       <div className='bg-image'></div>
     <Layout>
       <div className='products-heading'>
-        <h2>Nos meilleurs produits</h2>
-        <p></p>
+        <h2> Nos meilleurs articles</h2>
+        <p>Robes de mariage de soirée</p>
       </div>
       <div className='products-container'>
         {locationsMarieeSoiree?.map(

@@ -7,8 +7,8 @@ const LocationInviteeNonVoileeTraditionnelPage = ({locationsInviteeNonVoileeTrad
   return (
     <Layout>
       <div className='products-heading'>
-        <h2>Nos meilleurs produits</h2>
-        <p></p>
+        <h2>Nos meilleurs articles</h2>
+        <p>Robes d'invitation non voilée de traditionnel</p>
       </div>
       <div className='products-container'>
         {locationsInviteeNonVoileeTraditionnel?.map(

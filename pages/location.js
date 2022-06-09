@@ -17,7 +17,7 @@ export default function LocationPage(){
       <div className='sub-category'>
       <div className='type-heading'>
         <h3>Invitation</h3>
-        <p>Nos robes pour invitée</p>
+        <p>Nos robes d'invitée</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
@@ -27,7 +27,7 @@ export default function LocationPage(){
       <div className='sub-category'>
       <div className='type-heading'>
         <h3>Mariage</h3>
-        <p>Nos robes pour mariée</p>
+        <p>Nos robes de mariée</p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={

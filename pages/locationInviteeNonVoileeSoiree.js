@@ -8,7 +8,7 @@ const LocationInviteeNonVoileeSoireePage = ({locationsInviteeNonVoileeSoiree, ba
     <Layout>
       <div className='products-heading'>
         <h2>Nos meilleurs produits</h2>
-        <p></p>
+        <p>Robes d'invitation non voilée de soirée</p>
       </div>
       <div className='products-container'>
         {locationsInviteeNonVoileeSoiree?.map(
