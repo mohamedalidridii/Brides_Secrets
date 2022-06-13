@@ -1,17 +1,17 @@
 import React from 'react';
 import Image from 'next/image'
-import { NavBarHome, Footer } from '../components';
+import { NavBarHome, HeroBanner, Footer } from '../components';
+import { client } from '../lib/client';
 
 
 
-export default function Home(){
-  return (
+const Home = ({ bannerData }) => (
     <div>
       <div className='bg-image'></div>
     <NavBarHome />
     <div className='Home-container'>
       <Image className='image-navbar' width={440} height={348} src="/LOGO.png"/>
-      <h2 className='open-time'>Ouvert 7/7 de 10h à 19h</h2>
+      <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
       <button className='button-home' onClick={
           event =>  window.location.href="/vente"}>Vente</button>
       <button className='button-home' onClick={
@@ -21,6 +21,14 @@ export default function Home(){
       <Footer />
     </footer>
     </div>
-    
-  )
+  );
+
+export const getServerSideProps = async () =>{
+  const bannerQuery = '*[_type == "banner"]';
+  const bannerData = await client.fetch(bannerQuery);
+  return {
+    props:{bannerData}
+  }
 }
+
+export default Home;

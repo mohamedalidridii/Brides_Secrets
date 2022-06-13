@@ -10,14 +10,14 @@ export default function LocationPage(){
       <div className='bg-image'></div>
     <Layout>
     <div className='products-heading'>
-      <h2>Nos articles de location</h2>
+      <h2>Nos articles</h2>
       <p>Categories</p>
       </div>
     <div className='Home-container'>
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Invitation</h3>
-        <p>Nos robes d'invitée</p>
+        <h3>Invitée</h3>
+        <p></p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
@@ -26,8 +26,8 @@ export default function LocationPage(){
       </div>
       <div className='sub-category'>
       <div className='type-heading'>
-        <h3>Mariage</h3>
-        <p>Nos robes de mariée</p>
+        <h3>Mariée</h3>
+        <p></p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={

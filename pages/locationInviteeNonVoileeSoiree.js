@@ -7,7 +7,7 @@ const LocationInviteeNonVoileeSoireePage = ({locationsInviteeNonVoileeSoiree, ba
   return (
     <Layout>
       <div className='products-heading'>
-        <h2>Nos meilleurs produits</h2>
+        <h2>Nos meilleurs articles</h2>
         <p>Robes d'invitation non voilée de soirée</p>
       </div>
       <div className='products-container'>
