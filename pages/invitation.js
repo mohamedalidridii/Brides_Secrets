@@ -11,7 +11,7 @@ export default function LocationPage(){
     <Layout>
 
     <div className='products-heading'>
-      <h2>Nos articles de location</h2>
+      <h2>Nos articles</h2>
       <p>Location-Invitation</p>
       </div>
     
@@ -20,7 +20,7 @@ export default function LocationPage(){
       <div className='sub-category'>
       <div className='type-heading'>
         <h3>Voilée</h3>
-        <p>Nos articles voilée</p>
+        <p></p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
@@ -32,7 +32,7 @@ export default function LocationPage(){
       <div className='sub-category'>
       <div className='type-heading'>
         <h3>Non Voilée</h3>
-        <p>Nos articles non voilée</p>
+        <p></p>
       </div>
       <div className='flex-categories'>
       <button className='button-home' onClick={
