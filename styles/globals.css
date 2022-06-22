@@ -1089,8 +1089,8 @@ margin-top: 160px;
   }
   .product-detail-desc {
     position: relative;
-    right: 6rem;
-    padding: 0;
+    /* right: 10rem; */
+    padding: 1rem;
     margin-left: 0;
   }
   
